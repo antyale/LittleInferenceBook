@@ -36,14 +36,15 @@ Try it out, it's probably the most effective way to learn.
 We'll define statistical inference as the process of generating conclusions about
 a population from a noisy sample. Without statistical inference we're simply
 living within our data. With statistical inference, we're trying to generate
-new knowledge; we're trying to extend beyond our data to a population to get
-answers.
+new knowledge.
 
-In our class, we will define formal statistical inference as settings where one wants to infer facts about a population using noisy
-statistical data where uncertainty must be accounted for.
+Knowledge and parsimony,
+(using simplest reasonable models to explain complex phenomena), go hand in hand.
+Probability models will serve as our parsimonious description of the world.
+The use of probability models as the connection between our data and a
+populations represents the most effective way to obtain inference.
 
-
-## Motivating example: who's going to win the election?
+### Motivating example: who's going to win the election?
 
 In every major election, pollsters would like to know, ahead of the
 actual election, who's going to win. Here, the target of
@@ -57,24 +58,24 @@ How do we collect a reasonable subset of data and quantify the
 uncertainty in the process to produce a good guess at who will win?
 
 
-## Motivating example, predicting the weather
+### Motivating example, predicting the weather
 
 When a weatherman tells you the probability that it will rain tomorrow is
 70%, they're trying to use historical data
 to predict tomorrow's weather - and to actually attach a probability to it.
 That probability talks about, refers to population.
 
-### Motivating example, brain activation
+#### Motivating example, brain activation
 
 An example that's very close to the research I do is trying to predict what
 areas of the brain activate when a person is put in the fMRI scanner. In
-that case, people are doing a task while in the scanner, for example, tapping
-their finger or something like that, and we'd like to compare when they are
+that case, people are doing a task while in the scanner. For example, they
+might be tapping their finger. We'd like to compare when they are
 tapping their finger to when they are not tapping their finger and try to
 figure out what areas of the brain are associated with the finger tapping.
 
 
-## Summary
+## Summary notes
 
 These examples illustrate many of the difficulties of trying
 to use data to create general conclusions about a population.
@@ -91,7 +92,7 @@ or random sampling, or implicit as the aggregation of many complex unknown proce
 Statistical inference requires navigating the set of assumptions and
 tools and subsequently thinking about how to draw conclusions from data.
 
-## Example goals of inference
+## The goals of inference
 
 You should recognize the goals of inference. Here we list five
 examples of inferential goals.
@@ -108,7 +109,7 @@ a population quantity (the proportion of people who will
 5. Talk about the probability that something occurs.
 
 
-## Example tools of the trade
+## The tools of the trade
 
 Several tools are key to the use of statistical inference. We'll only
 be able to cover a few in this class, but you should recognize them anyway.
